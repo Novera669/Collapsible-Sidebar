@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Toggle Button -->
+  <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="logo">LOGO</div>
+
+    <ul class="nav-links">
+      <li class="active" onclick="selectLink(this)">🏠 Home</li>
+      <li onclick="selectLink(this)">👤 Profile</li>
+      <li onclick="selectLink(this)">📁 Projects</li>
+      <li onclick="selectLink(this)">📞 Contact</li>
+      <li onclick="selectLink(this)">⚙️ Settings</li>
+    </ul>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content" id="content">
+    <h1>Welcome</h1>
+    <p>This is the main content area.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
