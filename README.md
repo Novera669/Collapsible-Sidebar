@@ -20,7 +20,7 @@ A responsive collapsible sidebar built with **HTML**, **CSS**, and **JavaScript*
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/collapsible-sidebar.git
+   git clone https://github.com/Novera669/collapsible-sidebar.git
 2. Open index.html in your browser.
 
 3. Click the ☰ button to toggle the sidebar.
